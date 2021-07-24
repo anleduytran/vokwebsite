@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="{% static 'style.css' %}">
+        <link rel="shortcut icon" href="{% static 'vokicon22.png' %}" type="image/png">
+        <title>VOK Records</title>
+    </head>
+    <body>
+        <header id="header" class="fixed-top">
+            <div class="headerwrapper">
+                <!--<h1 class="logo"><a href="#home">VOK Records</a></h1>-->
+                <a href="#home" class="logo"><img src="{% static 'vok-logo.png' %}" alt="" class="img-fluid"></a>
+
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li><a class="nav-link scrollto " href="#home">Home</a></li>
+                        <li><a class="nav-link scrollto" href="#about">About</a></li>
+                        <li><a class="nav-link scrollto" href="#albums">Albums</a></li>
+                        <li><a class="nav-link scrollto " href="#songs">Songs</a></li>
+                        <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </body>
+</html>

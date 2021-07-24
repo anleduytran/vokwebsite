@@ -1,0 +1,114 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="{% static 'style.css' %}">
+        <link rel="shortcut icon" href="{% static 'vokicon22.png' %}" type="image/png">
+        <title>VOK Records</title>
+    </head>
+    <body>
+        <header id="header" class="fixed-top">
+            <div class="headerwrapper">
+                <a href="/vokrecords" class="logo"><img src="{% static 'vok-logo.png' %}" alt="" class="img-fluid"></a>
+
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li><a class="nav-link scrollto " href="/vokrecords#home">Home</a></li>
+                        <li><a class="nav-link scrollto" href="/vokrecords#about">About</a></li>
+                        <li><a class="nav-link scrollto" href="/vokrecords#albums">Albums</a></li>
+                        <li><a class="nav-link scrollto " href="#songs">Songs</a></li>
+                        <li><a class="nav-link scrollto" href="/vokrecords#team">Team</a></li>
+                        <li><a class="nav-link scrollto" href="/vokrecords#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="songs" class="songs">
+            <div class="song-container">
+                <div class="section-name">
+                    <h2>Songs</h2>
+                    <center><div class="whatllyousay-n-pure-images" style=" width: 1050px; height:500px; margin: 30px 0px 0px 00px">
+                        <img src="{% static 'wys.jpg' %}" alt="what you say - custhekid chillingo" width="500" height="500" id="whatyousay" style="float: left">
+                        <img src="{% static 'pure.jpg' %}" alt="pure" width="500" height="500" id="pure" style="float:right">
+                    </div></center>
+                    <center><div class="whatllyousay-n-pure-label" style="width: 1050px; height:30px; margin: 20px 0px 0px 00px">
+                        <a href="https://www.youtube.com/watch?v=wCHI6zXqR1I" rel="whatyousay" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: left; padding:0px 0px 0px 30px">CUSTHEKID - WHAT'LL YOU SAY? FT. CHILLINGO</a>
+                        <a href="https://www.youtube.com/watch?v=MaZsJZ3oixA" rel="pure" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: right; padding:0px 110px 0px 0px">dwalker - PURE FT. WILDDE</a>
+                    </div></center>
+                    <center><div class="mario-n-luvyou-images" style=" width: 1050px; height:500px; margin: 30px 0px 0px 00px">
+                        <img src="{% static 'mario.jpg' %}" alt="mario-yange-louies" width="500" height="500" id="mario" style="float: left">
+                        <img src="{% static 'luvyou.jpg' %}" alt="luvyou-custhekid" width="500" height="500" id="luvyou" style="float:right">
+                    </div></center>
+                    <center><div class="mario-n-luvyou-label" style="width: 1050px; height:30px; margin: 20px 0px 0px 00px">
+                        <a href="https://www.youtube.com/watch?v=un02sOs-8gg" rel="mario" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: left; padding:0px 0px 0px 100px">LOUIES - MARIO FT. YANG E</a>
+                        <a href="https://www.youtube.com/watch?v=DYheDKP42uM" rel="luvyou" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: right; padding:0px 130px 0px 0px">CUSTHEKID - LUVYOU</a>
+                    </div></center>
+                    <center><div class="phonecall-n-nikotine-images" style=" width: 1050px; height:500px; margin: 30px 0px 0px 00px">
+                        <img src="{% static 'phonecall.jpg' %}" alt="phonecall-dwalker-wildde-custhekid" width="500" height="500" id="phonecall" style="float: left">
+                        <img src="{% static 'NIKOTINEfinal.jpg' %}" alt="nikotine-custhekid" width="500" height="500" id="nikotine" style="float:right">
+                    </div></center>
+                    <center><div class="phonecall-n-nikotine-label" style="width: 1050px; height:30px; margin: 20px 0px 0px 00px">
+                        <a href="https://www.youtube.com/watch?v=FhC30RknqeY" rel="mario" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: left; padding:0px 0px 0px 30px">dwalker. - PHONE CALL FT. CUSTHEKID, WILDDE</a>
+                        <a href="https://www.youtube.com/watch?v=Sh_oFzbDD3w" rel="nikotine" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: right; padding:0px 130px 0px 0px">CUSTHEKID - NIKOTINE</a>
+                    </div></center>
+                    
+                    <center><div class="emaemoi-n-degiuhinhbongem-images" style=" width: 1050px; height:500px; margin: 30px 0px 0px 00px">
+                        <img src="{% static 'emaemoi.jpg' %}" alt="emaemoi-wansentai" width="500" height="500" id="emaemoi" style="float: left">
+                        <img src="{% static 'degiuhinhbongem.jpg' %}" alt="degiuhinhbongem-custhekid" width="500" height="500" id="degiuhinhbongem" style="float:right">
+                    </div></center>
+                    <center><div class="emaemoi-n-degiuhinhbongem-label" style="width: 1050px; height:30px; margin: 20px 0px 0px 00px">
+                        <a href="https://www.youtube.com/watch?v=E3sl70P-3vw" rel="emaemoi" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: left; padding:0px 0px 0px 80px">WANSENTAI - EM A EM OI FT. JAYDEN</a>
+                        <a href="https://www.youtube.com/watch?v=6h4qUOapDoA" rel="degiuhinhbongem" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: right; padding:0px 15px 0px 0px">CUSTHEKID - DE GIU HINH BONG EM FT. CHILLINGO</a>
+                    </div></center>
+
+                    <center><div class="naughtyboys-n-loveyouneedyou-images" style=" width: 1050px; height:500px; margin: 30px 0px 0px 00px">
+                        <img src="{% static 'naughtyBoys.jpg' %}" alt="naughtyBoys-chillingo-wansentai-gaving" width="500" height="500" id="naughtyBoys" style="float: left">
+                        <img src="{% static 'loveyouneedyou.jpg' %}" alt="loveyouneedyou-wansentai-jayden" width="500" height="500" id="loveyouneedyou" style="float:right">
+                    </div></center>
+                    <center><div class="naughtyboys-n-loveyouneedyou-label" style="width: 1050px; height:30px; margin: 20px 0px 0px 00px">
+                        <a href="https://www.youtube.com/watch?v=UQVI4VmLt6U" rel="naughtyBoys" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: left; padding:0px 0px 0px 0px">CHILLINGO - NAUGHTY BOYS FT. WANSENTAI, GAVIN G</a>
+                        <a href="https://www.youtube.com/watch?v=hwsGZqJJK2w" rel="loveyouneedyou" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: right; padding:0px 40px 0px 0px">WANSENTAI - LOVE YOU NEED YOU FT. JAYDEN</a>
+                    </div></center>
+
+                    <center><div class="doicho-n-bemylover-images" style=" width: 1050px; height:500px; margin: 30px 0px 0px 00px">
+                        <img src="{% static 'doicho.jpg' %}" alt="doicho-wansentai-harmonie" width="500" height="500" id="doicho" style="float: left">
+                        <img src="{% static 'bemylover.jpg' %}" alt="bemylover-wansentai-harmonie" width="500" height="500" id="bemylover" style="float:right">
+                    </div></center>
+                    <center><div class="doicho-n-bemylover-label" style="width: 1050px; height:30px; margin: 20px 0px 0px 00px">
+                        <a href="https://www.youtube.com/watch?v=NTJOHftaMZY" rel="doicho" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: left; padding:0px 0px 0px 80px">WANSENTAI - DOI CHO FT. HARMONIE</a>
+                        <a href="https://www.youtube.com/watch?v=s0yWzO-Ozik" rel="bemylover" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: right; padding:0px 50px 0px 0px">WANSENTAI - BE MY LOVER FT. HARMONIE</a>
+                    </div></center>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">  
+            <div class="footer-container">
+                <div class="footer-left" style=" float:left">
+                <p  style=" font-family: Poppins, sans-serif; font-size:25px; padding: 0px 0px 0px 80px; text-align: left;">VOK RECORDS</p> 
+                <p  style=" font-family: Poppins, sans-serif; font-size:15px; padding: 0px 0px 0px 80px; text-align:left">Edmonton, Canada <br>Hanoi - Ho Chi Minh City, Vietnam <br>Illinois - Washington, United States </p> 
+                </div>
+                <div class="footer-center" style="float:right">
+                    <p  style=" font-family: Poppins, sans-serif; font-size:15px; padding: 120px 80px 0px 0px; text-align:left">@Copyright VOK Records. All Rights Reserved</p> 
+                </div>
+            </div>  
+        </footer>  
+    </body>
+</html>
+

@@ -1,0 +1,195 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="{% static 'style.css' %}">
+        <link rel="shortcut icon" href="{% static 'vokicon22.png' %}" type="image/png">
+        <title>VOK Records</title>
+    </head>
+    <body>
+        <header id="header" class="fixed-top">
+            <div class="headerwrapper">
+                <!--<h1 class="logo"><a href="#home">VOK Records</a></h1>-->
+                <a href="#home" class="logo"><img src="{% static 'vok-logo.png' %}" alt="" class="img-fluid"></a>
+
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li><a class="nav-link scrollto " href="#home">Home</a></li>
+                        <li><a class="nav-link scrollto" href="#about">About</a></li>
+                        <li><a class="nav-link scrollto" href="#albums">Albums</a></li>
+                        <li><a class="nav-link scrollto " href="#songs">Songs</a></li>
+                        <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="home">
+            <div class="home-container">
+                <h3>
+                    Welcome to <strong>VOK Records</strong>
+                </h3>
+                <h1>A music band from Vietnam</h1>
+                <h2>Every song since 2016</h2>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="about-container">
+                <div class="section-name" style="padding: 60px 0;">
+                    <h2>About Us</h2>
+                    <h3>VOK Records</h3>
+                    <p>
+                        VOK Records was found in 2016 as a group of Vietnamese students who has the same passion<br>
+                        of rap, music, and writing their own songs. The group at first was only doing lo-fi rap, <br>
+                        practiced in writing music, using own words, own stories to share with the audience. The group<br>
+                        member had many members joined in and many had also left after working for a while before choosing <br>
+                        to walk on their own path. The group have grown and improved a lot over time, flexing in produce beats,<br>
+                        songs, mixing, and mastering.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="albums" class="albums">
+            <div class="album-container">
+                <div class="section-name">
+                    <h2>Albums</h2>
+                    <div class="chemicalImages">
+                        <center><img src="{% static 'chemicalAlbum.png' %}" alt="chemical album - custhekid" width="500" 
+                            height="500" id="chemical"style="padding: 30px 0" ></center>
+                        <center><a href="https://www.youtube.com/watch?v=9HyIucI6oxc" rel="chemicalEP" style="font-family: Poppins, sans-serif; 
+                        font-size: 25px; ">CHEMICAL - CUSTHEKID</a></center>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="songs" class="songs">
+            <div class="song-container">
+                <div class="section-name">
+                    <h2>Songs</h2>
+                    <center><div class="whatllyousay-n-pure-images" style=" width: 1050px; height:500px; margin: 30px 0px 0px 00px">
+                        <img src="{% static 'wys.jpg' %}" alt="what you say - custhekid chillingo" width="500" height="500" id="whatyousay" style="float: left">
+                        <img src="{% static 'pure.jpg' %}" alt="pure" width="500" height="500" id="pure" style="float:right">
+                    </div></center>
+                    <center><div class="whatllyousay-n-pure-label" style="width: 1050px; height:30px; margin: 20px 0px 0px 00px">
+                        <a href="https://www.youtube.com/watch?v=wCHI6zXqR1I" rel="whatyousay" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: left; padding:0px 0px 0px 30px">CUSTHEKID - WHAT'LL YOU SAY? FT. CHILLINGO</a>
+                        <a href="https://www.youtube.com/watch?v=MaZsJZ3oixA" rel="pure" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: right; padding:0px 110px 0px 0px">dwalker - PURE FT. WILDDE</a>
+                    </div></center>
+                    <center><div class="mario-n-luvyou-images" style=" width: 1050px; height:500px; margin: 30px 0px 0px 00px">
+                        <img src="{% static 'mario.jpg' %}" alt="mario-yange-louies" width="500" height="500" id="mario" style="float: left">
+                        <img src="{% static 'luvyou.jpg' %}" alt="luvyou-custhekid" width="500" height="500" id="luvyou" style="float:right">
+                    </div></center>
+                    <center><div class="mario-n-luvyou-label" style="width: 1050px; height:30px; margin: 20px 0px 0px 00px">
+                        <a href="https://www.youtube.com/watch?v=un02sOs-8gg" rel="mario" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: left; padding:0px 0px 0px 100px">LOUIES - MARIO FT. YANG E</a>
+                        <a href="https://www.youtube.com/watch?v=DYheDKP42uM" rel="luvyou" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: right; padding:0px 130px 0px 0px">CUSTHEKID - LUVYOU</a>
+                    </div></center>
+                    <center><div class="phonecall-n-nikotine-images" style=" width: 1050px; height:500px; margin: 30px 0px 0px 00px">
+                        <img src="{% static 'phonecall.jpg' %}" alt="phonecall-dwalker-wildde-custhekid" width="500" height="500" id="phonecall" style="float: left">
+                        <img src="{% static 'NIKOTINEfinal.jpg' %}" alt="nikotine-custhekid" width="500" height="500" id="nikotine" style="float:right">
+                    </div></center>
+                    <center><div class="phonecall-n-nikotine-label" style="width: 1050px; height:30px; margin: 20px 0px 0px 00px">
+                        <a href="https://www.youtube.com/watch?v=FhC30RknqeY" rel="mario" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: left; padding:0px 0px 0px 30px">dwalker. - PHONE CALL FT. CUSTHEKID, WILDDE</a>
+                        <a href="https://www.youtube.com/watch?v=Sh_oFzbDD3w" rel="nikotine" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: right; padding:0px 130px 0px 0px">CUSTHEKID - NIKOTINE</a>
+                    </div></center>
+                    <center><div class="seemore" style="width: 1050px; height:30px; margin: 20px 0px 0px 00px;">
+                        <a href="/song" rel="songpage" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: left; padding: 0px 0px 0px 480px">See More</a>
+                        <a href="/song" rel="songpage"><img src="{% static 'seemoredropdown.png' %}" alt="seemore" width="20" height="20" style="float: right; padding:5px 452px 0px 0px"></a>
+                        </div></center>
+                </div>
+            </div>
+        </section>
+        <section id="team" class="team">
+            <div class="team-container">
+                <div class="section-name">
+                    <h2>Team Members</h2>
+                    <center><div class="chillingo-n-wansentai-jayden" style=" width: 1050px; height:300px; margin: 30px 0px 0px 00px">
+                        <img src="{% static 'chillingo.jpg' %}" alt="chillingo" width="300" height="300" id="chillingo" style="float: left; padding: 0px 0px 0px 20px">
+                        <img src="{% static 'wansentai.jpg' %}" alt="wansentai" width="300" height="300" id="wansentai" style="float:left; padding:0px 0px 0px 50px">
+                        <img src="{% static 'jayden.jpg' %}" alt="jayden" width="300" height="300" id="jayden" style="float:left; padding:0px 0px 0px 50px">
+                    </div></center>
+                    <center><div class="chillingo-n-wansentai-jayden-label" style="width: 1050px; height:30px; margin: 0px 0px 0px 00px">
+                        <p style=" font-size:20px; float: left; padding:0px 0px 0px 60px; letter-spacing: 0.8px;">
+                            CHILLINGO - LEADER </p>
+                        <p style=" font-size:20px; float: left; padding:0px 0px 0px 145px; letter-spacing: 0.8px;">
+                            WANSENTAI - MEMBER </p>
+                        <p style=" font-size:20px; float: left; padding:0px 0px 0px 150px; letter-spacing: 0.8px;">
+                            JAYDEN - MEMBER </p>
+                </div></center>
+                <center><div class="custhekid-n-dwalker-wildee" style=" width: 1050px; height:300px; margin: 30px 0px 0px 00px">
+                    <img src="{% static 'custhekid.jpg' %}" alt="custhekid" width="300" height="300" id="custhekid" style="float: left; padding: 0px 0px 0px 20px">
+                    <img src="{% static 'dwalker.jpg' %}" alt="dwalker" width="300" height="300" id="dwalker" style="float:left; padding:0px 0px 0px 50px">
+                    <img src="{% static 'wildde.jpg' %}" alt="wildde" width="300" height="300" id="wildde" style="float:left; padding:0px 0px 0px 50px">
+                </div></center>
+                <center><div class="chillingo-n-wansentai-jayden-label" style="width: 1050px; height:30px; margin: 0px 0px 0px 00px">
+                    <p style=" font-size:20px; float: left; padding:0px 0px 0px 60px; letter-spacing: 0.8px;">
+                        CUSTHEKID - MEMBER </p>
+                    <p style=" font-size:20px; float: left; padding:0px 0px 0px 150px; letter-spacing: 0.8px;">
+                        DWALKER - MEMBER </p>
+                    <p style=" font-size:20px; float: left; padding:0px 0px 0px 160px; letter-spacing: 0.8px;">
+                        WILDDE - MEMBER </p>
+            </div></center>
+            <center><div class="louies-n-bayxa-tu" style=" width: 1050px; height:300px; margin: 30px 0px 0px 00px">
+                <img src="{% static 'bayxa.jpg' %}" alt="bayxa" width="300" height="300" id="bayxa" style="float: left; padding: 0px 0px 0px 20px">
+                <img src="{% static 'louies.jpg' %}" alt="louies" width="300" height="300" id="louies" style="float:left; padding:0px 0px 0px 50px">
+                <img src="{% static 'tunguyen.png' %}" alt="tunguyen" width="300" height="300" id="tunguyen" style="float:left; padding:0px 0px 0px 50px">
+            </div></center>
+            <center><div class="louies-n-bayxa-tu-label" style="width: 1050px; height:30px; margin: 0px 0px 0px 00px">
+                <p style=" font-size:20px; float: left; padding:0px 0px 0px 100px; letter-spacing: 0.8px;">
+                    XA - MEMBER </p>
+                <p style=" font-size:20px; float: left; padding:0px 0px 0px 200px; letter-spacing: 0.8px;">
+                    LOUIES - MEMBER </p>
+                <p style=" font-size:20px; float: left; padding:0px 0px 0px 190px; letter-spacing: 0.8px;">
+                    TU - PRODUCER </p>
+        </div></center>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact-container">
+                <div class="section-name">
+                    <h2>Contact</h2>
+                    <center><div class="info" style="width: 505px; height:32px; margin: 20px 0px 0px 230px;">
+                        <p style="text-align: left; padding: 10px 0px 0px 0px">Feel free to contact us at:</p>
+                    </div></center>
+                    <center><div class="contactinstainfo" style="width: 505px; height:32px; margin: 20px 0px 0px 325px;">
+                        <a href="https://www.instagram.com/vokrecords/" rel="instagram"><img src="{% static 'instagramicon.png' %}" alt="instagramicon" width="32" height="32" style="float: left; padding:5px 0px 0px 0px"></a>
+                        <a href="https://www.instagram.com/vokrecords/" rel="instagram" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: left; padding: 5px 0px 0px 5px">@vokrecords</a>               
+                        </div></center>
+                    <center><div class="contactfacebookinfo" style="width: 505px; height:32px; margin: 20px 0px 0px 315px;">
+                        <a href="https://www.facebook.com/vokrecords" rel="facebook"><img src="{% static 'facebookicon.png' %}" alt="facebookicon" width="34" height="34" style="float: left; padding:5px 0px 0px 0px"></a>
+                        <a href="https://www.facebook.com/vokrecords" rel="facebook" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: left; padding: 5px 0px 0px 5px">/vokrecords/</a>               
+                        </div></center>    
+                    <center><div class="contactfacebookinfo" style="width: 505px; height:32px; margin: 20px 0px 0px 135px;">
+                        <a href="https://www.gmail.com" rel="gmail"><img src="{% static 'gmailicon.jpg' %}" alt="instagramicon" width="32" height="24" style="float: left; padding:5px 0px 0px 0px"></a>
+                        <a href="https://www.gmail.com" rel="gmail" style="  font-family: Poppins, sans-serif; 
+                        font-size:20px; float: left; padding: 0px 0px 0px 5px">vokviggaoldskoolchannel@gmail.com</a>               
+                        </div></center>          
+                </div>
+            </div>
+        </section>
+        <footer id="footer">  
+            <div class="footer-container">
+                <div class="footer-left" style=" float:left">
+                <p  style=" font-family: Poppins, sans-serif; font-size:25px; padding: 0px 0px 0px 80px; text-align: left;">VOK RECORDS</p> 
+                <p  style=" font-family: Poppins, sans-serif; font-size:15px; padding: 0px 0px 0px 80px; text-align:left">Edmonton, Canada <br>Hanoi - Ho Chi Minh City, Vietnam <br>Illinois - Washington, United States </p> 
+                </div>
+                <div class="footer-center" style="float:right">
+                    <p  style=" font-family: Poppins, sans-serif; font-size:15px; padding: 120px 80px 0px 0px; text-align:left">@Copyright VOK Records. All Rights Reserved</p> 
+                </div>
+            </div>  
+        </footer>  
+    </body>
+</html>
+
